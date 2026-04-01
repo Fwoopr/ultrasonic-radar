@@ -9,7 +9,11 @@ A real-time object detection and distance mapping system built using an HC-SR04 
 
 ---
 
+## Circuit
 
+![Circuit Diagram](circuit.png)
+
+---
 
 ### Components
 - Arduino Uno
