@@ -31,6 +31,21 @@ The system is built on a non-blocking timing architecture using millis(). This e
 * Measurement: At each step, the HC-SR04 sends a sonic burst and listens for the return using pulseIn.
 
 ---
+# How to use the Radar Display
+## Installation
+```
+pip install -r requirements.txt
+```
+## Usage
+```
+python display.py
+```
+Change the port connected to your arduino in the serialRead.py file. 
+
+Maximum range of the ultrasonic sensor can also be adjusted inside the distance_map() function in the display.py file.
+
+
+
 
 
 ## What I Learned
